@@ -1,4 +1,4 @@
-![MCSS][logo] # McMaster Computer Science Society Website
+# ![MCSS][logo] McMaster Computer Science Society Website
 The new McMasterCS website can be found [here][weblink].
 
 ## About
