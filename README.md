@@ -11,6 +11,6 @@ This section will be update to show the site map.
 ## Contact
 For more information on the McMaster Computer Science Society please contact the CSS President *[Andrew Berriault][email]*.
 
-[email]: mailto:css@mcmaster.ca?subject=A%20Message%20From%Github
-[weblink]: https://mcss.mcmaster.ca
-[logo]: https://github.com/McMasterCS/Website_v2017/media/css.png
+[email]: mailto:css@mcmaster.ca?subject=A%20Message%20From%20Github
+[weblink]: http://mcss.mcmaster.ca
+[logo]: ./media/css.png
