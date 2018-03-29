@@ -1207,6 +1207,20 @@
          margin-left: 8.33333%;
     }
 }
+ .shelf {
+     float: left;
+     width: 50%;
+}
+ .store:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+ .product {
+     margin: auto;
+     width: 50%;
+     height: auto;
+}
 /* Basic */
  @-ms-viewport {
      width: device-width;
