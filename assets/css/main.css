@@ -1231,6 +1231,12 @@
      width: 60%;
      height: auto;
 }
+ .museum img {
+     margin: auto;
+     max-width: 70%;
+     border-style: solid;
+     height: auto;
+}
 /* Basic */
  @-ms-viewport {
      width: device-width;
