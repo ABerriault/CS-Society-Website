@@ -1,5 +1,5 @@
 # McMaster CS Society Website
----
+
 The new McMasterCS website can be found [here.](http://mcmastercs.ca "McMaster CS Society")
 
 ## About
