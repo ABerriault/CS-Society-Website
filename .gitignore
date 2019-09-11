@@ -1,2 +1,5 @@
 # macOS file management
 .DS_Store
+
+# Jekyll files
+_site/
