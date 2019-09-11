@@ -1,35 +1,52 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    
-    <!-- Bootstrap 4 -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom Sticky Footer -->
-    <link href="assets/css/sticky-footer.css" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link href="assets/css/fontawesomeall.css" rel="stylesheet">
-    <script src="assets/js/fontawesomeall.js"></script>
-
-    <!-- jquery & popper, needed for bootstrap 4-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  </head>
-  <body>
+{% include head.html %}
+  <body class="bg-light">
     {% include navigation.html %}
     
     <div class="jumbotron">
-        <h1 class="display-4">{{ page.title }}</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <div class="row justify-content-center">
+
+        {% for event in site.data.events %}
+        {% if event.title == page.event %}
+
+        <div class="col-lg-7 col-md-6 p-3">
+            <h1 class="display-4">{{ event.title }}</h1>
+            <p class="lead">{{ event.tagline }}</p>
+            <hr class="my-4">
+            <p class="">{{ event.description }}</p>
+            <p>{{ event.date }} <br /> {{ event.time }} <br /> {{ event.location }}</p>
+            <a class="btn btn-lg btn-outline-primary" href="/events.html" role="button">Learn more</a>
+        </div>
+        
+        {% endif %}
+        {% endfor %}
+
+        {% for member in site.data.team %}
+        {% if member.name == page.team-member %}
+
+        <div class="p-3">
+            <div class="card bg-primary" style="width: 18rem;">
+                <img src= {{member.photo}} class="card-img-top rounded-circle w-75 mt-3 d-block mx-auto border border-warning" alt={{member.name}}>
+                <div class="card-body text-light">
+                    <h5 class="card-title"> {{member.name}}</h5>
+                    <p class="card-text">{{member.bio}}</p>
+                    <a href="/about.html" class="btn btn-outline-light">Meet the Team!</a>
+                </div>
+            </div>
+        </div>
+
+        {% endif %}
+        {% endfor %}
+
+      </div>
     </div>
 
-    {{ content }}
+    <div class="container">
+      <h2 class="text-center text-muted">Quick Updates!</h2>
+      <hr class="my-4">
+      {{ content }}
+    </div>
+
     {% include footer.html %}
+  
   </body>
 </html>
