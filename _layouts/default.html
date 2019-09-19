@@ -12,7 +12,7 @@
             <h1 class="display-4">{{ event.title }}</h1>
             <p class="lead">{{ event.tagline }}</p>
             <hr class="my-4">
-            <p class="">{{ event.description }}</p>
+            <p class=""><strong>{{ event.description }}</strong></p>
             <p>{{ event.date }} <br /> {{ event.time }} <br /> {{ event.location }}</p>
             <a class="btn btn-lg btn-outline-primary" href="/events.html" role="button">Learn more</a>
         </div>
@@ -25,7 +25,7 @@
 
         <div class="p-3">
             <div class="card bg-primary" style="width: 18rem;">
-                <img src= {{member.photo}} class="card-img-top rounded-circle w-75 mt-3 d-block mx-auto border border-warning" alt={{member.name}}>
+                <img src= {{member.photo}} class="card-img-top rounded-circle w-75 mt-3 d-block mx-auto" alt={{member.name}}>
                 <div class="card-body text-light">
                     <h5 class="card-title"> {{member.name}}</h5>
                     <p class="card-text">{{member.bio}}</p>
