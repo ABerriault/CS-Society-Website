@@ -4,17 +4,19 @@
     
     <div class="jumbotron">
       <div class="row justify-content-center">
+        <div class="col-8">
+          <div class="row justify-content-center">
 
         {% for event in site.data.events %}
         {% if event.title == page.event %}
 
-        <div class="col-lg-7 col-md-6 p-3">
+        <div class="col-8 p-3">
             <h1 class="display-4">{{ event.title }}</h1>
             <p class="lead">{{ event.tagline }}</p>
             <hr class="my-4">
             <p class=""><strong>{{ event.description }}</strong></p>
             <p>{{ event.date }} <br /> {{ event.time }} <br /> {{ event.location }}</p>
-            <a class="btn btn-lg btn-outline-primary" href="/events.html" role="button">Learn more</a>
+            <a class="btn btn-lg btn-outline-secondary" href="/events.html" role="button">Learn more</a>
         </div>
         
         {% endif %}
@@ -23,8 +25,8 @@
         {% for member in site.data.team %}
         {% if member.name == page.team-member %}
 
-        <div class="p-3">
-            <div class="card bg-primary" style="width: 18rem;">
+        <div class="col-4 p-3">
+            <div class="card bg-secondary" style="width: 18rem;">
                 <img src= {{member.photo}} class="card-img-top rounded-circle w-75 mt-3 d-block mx-auto" alt={{member.name}}>
                 <div class="card-body text-light">
                     <h5 class="card-title"> {{member.name}}</h5>
@@ -36,16 +38,19 @@
 
         {% endif %}
         {% endfor %}
-
+        
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8">
       <h2 class="text-center text-muted">Quick Updates!</h2>
       <hr class="my-4">
       {{ content }}
     </div>
-
+  </div>
     {% include footer.html %}
   
   </body>

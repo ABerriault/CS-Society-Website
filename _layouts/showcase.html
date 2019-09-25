@@ -4,36 +4,58 @@
     
     <div class="jumbotron">
       <div class="row justify-content-center">
-
+          <div class="col-8 p-3">
+            <div class="row justify-content-center">
+              <div class="col-md-8">
         {% if page.type == "events" %}
         {% for event in site.data.events %}
         {% if event.title == page.showcase %}
 
-        <div class="p-3">
             <h1 class="display-4">{{ event.title }}</h1>
             <p class="lead">{{ event.tagline }}</p>
             <hr class="my-4">
             <p class=""><strong>{{ event.description }}</strong></p>
             <p>{{ event.date }} <br /> {{ event.time }} <br /> {{ event.location }}</p>
-            <a class="btn btn-lg btn-outline-primary" href="/events.html" role="button">Learn more</a>
-        </div>
+            <a class="btn btn-lg btn-outline-secondary" href="/events.html" role="button">Learn more</a>
+            </div>
+
+            <div class="col-4">
+                <img src= {{event.photo}} class="w-100 mt-3 d-block mx-auto" alt={{event.title}}>
+            </div>
         
         {% endif %}
         {% endfor %}
         {% endif %}
 
+        {% if page.type == "team" %}
+
+            <h1 class="display-4">The Society</h1>
+            <p class="lead">The McMaster CS Society aims to assist undergraduate CS students with academic, social, and professional events.</p>
+            <hr class="my-4">
+            <p class=""><strong>Started in the late 2000s, the CS Society is a group of undergraduate CS students who utilize funding from the MES and CAS Department to facilitate events.</strong></p>
+            </div>
+
+            <div class="col-4">
+                <img src="/assets/images/cs-society.jpg" class="w-100 mt-3 d-block mx-auto" alt="CS Society">
+            </div>
+        {% endif %}
+
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="container text-center">
-        <div class="row p-3 border border-primary">
+        <div class="row justify-content-center">
+            
             
             {% if page.type == "events" %}
             {% for event in site.data.events %}
-            
-            <div class="col-4 p-3 border border-primary" >
+            <div class="col-md-3 col-sm-1 m-3 border border-primary" >
+                <img src= {{event.photo}} class="card-img-top w-75 mt-3 d-block mx-auto" alt={{event.title}}>
                 <h3>{{ event.title }}</h3>
                 <p>{{ event.date }}</p>
+
             </div>
             
             {% endfor %}
@@ -41,15 +63,17 @@
 
             {% if page.type == "team" %}
             {% for person in site.data.team %}
-                        
-            <div class="col-4 p-3 border border-primary" >
+            <div class="col-md-3 col-sm-1 m-3 border border-primary" >
+              <a href="/" class="text-primary">
+                <img src= {{person.photo}} class="card-img-top rounded-circle w-75 mt-3 d-block mx-auto" alt={{person.name}}>
                 <h3>{{ person.name }}</h3>
                 <p>{{ person.position }}</p>
+              </a>
             </div>
+            
             
             {% endfor %}
             {% endif %}
-
         </div>
         
     </div>
