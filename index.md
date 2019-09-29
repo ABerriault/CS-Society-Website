@@ -2,7 +2,7 @@
 layout: default
 title: McMaster CS Society
 event: Hello, First Years!
-team-member: Sam Cymbaluk
+team-member: Jeff Gibson
 ---
 
 ### New Team, New Events, New Site, New Reps 
