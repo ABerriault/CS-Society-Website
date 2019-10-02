@@ -1,0 +1,15 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$theme-colors: (
+  "primary": #336699,
+  "secondary": #666699,
+  "success": #339966,
+  "info": #009999 ,
+  "warning": #bb6600 ,
+  "danger": #993333 ,
+  "light": #ffffff ,
+  "dark": #000033
+);
+
+@import "./bootstrap-4.3.1/assets/stylesheets/bootstrap";
