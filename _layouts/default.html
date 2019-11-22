@@ -4,9 +4,9 @@
 
     {% include navigation.html %}
     
-    <div class="jumbotron" >
-      <div class="row justify-content-center">
-        <div class="col-sm-6 py-3">
+    <div class="jumbotron">
+      <div class="row justify-content-around">
+        <div class="col-md-6 align-items-center ">
           {% for event in site.data.events %}
           {% if event.title == page.event %}
           <h1 class="display-4">{{ event.title }}</h1>
@@ -19,10 +19,10 @@
           {% endfor %}
         </div>
 
-        <div class="col-sm-4 py-3">
+        <div class="col-2 pt-3 align-items-center d-md-block d-none">
           {% for member in site.data.team %}
           {% if member.name == page.team-member %}
-          <div class="card bg-gradient-success" style="width: 18rem;">
+          <div class="card bg-gradient-primary" style="width: 18rem;">
               <img src= {{member.photo}} class="card-img-top rounded-circle w-75 mt-3 d-block mx-auto" alt={{member.name}}>
               <div class="card-body text-light">
                   <h5 class="card-title"> {{member.name}}</h5>

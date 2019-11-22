@@ -14,12 +14,12 @@
   description: This is an event description about the event. The description should be very detailed and have the important information. Why should you be there? What will be there? Perhaps not in that order?
   photo: /assets/images/cs-society.jpg
 
-- title: CAS Night
-  date: Thursday Oct 3, 2019
-  time: 6:30 PM - 9:00 PM
+- title: Fiix Co-op Competition
+  date: Thursday Nov 28, 2019
+  time: 6:00 PM - 9:00 PM
   location: JHE Lobby & Hatch
-  tagline: Business Casual Attire, bring your resume. Many employers will be there!
-  description: This is an event description about the event.
+  tagline: 2-person competitive programming challenge, ask Fiix about Co-ops!
+  description: Fiix simplifies your journey to modern maintenance. We partner with you to evaluate, purchase, implement, and integrate cloud-based CMMS software.
   photo: /assets/images/cs-society.jpg
 
 - title: Industry Night
