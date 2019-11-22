@@ -8,8 +8,10 @@ $theme-colors: (
   "info": #009999 ,
   "warning": #bb6600 ,
   "danger": #993333 ,
-  "light": #ffffff ,
-  "dark": #000033
+  "light": #fdfdff ,
+  "dark": #333333
 );
+
+$enable-gradients: true;
 
 @import "./bootstrap-4.3.1/assets/stylesheets/bootstrap";
