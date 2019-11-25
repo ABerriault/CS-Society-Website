@@ -24,10 +24,14 @@
         {% break %}
         {% endif %}
 
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4"><a class="team-link" href="{{ person.link }}" target="_blank">
-                <div class="p-4">
-                    <div class="avatar w-100 white d-flex justify-content-center align-items-center">
-                        <img src="assets/images/team/{{ person.photo }}" class="img-fluid rounded-circle z-depth-1" />
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4"><a href="{{ person.link }}" target="_blank">
+                <div class="p-4 team-link">
+                    <div class="view overlay">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                            <img src="assets/images/team/{{ person.photo }}"
+                                class="img-fluid rounded-circle z-depth-1" />
+                        </div>
+                        <div class="mask rounded-circle rgba-blue-strong"></div>
                     </div>
                     <div class="text-center mt-3">
                         <h6 class="font-weight-bold pt-2">{{ person.name }}</h6>
@@ -52,7 +56,8 @@
             <a href="https://instagram.com/mcmastercs" class="mx-1" role="button"><i class="fab fa-instagram"></i></a>
             <a href="https://facebook.com/mcmastercs" class="mx-1" role="button"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/mcmastercs" class="mx-1" role="button"><i class="fab fa-twitter"></i></a>
-            <a href="https://linkedin.com/mcmastercs" class="mx-1" role="button"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://linkedin.com/company/mcmastercs" class="mx-1" role="button"><i
+                    class="fab fa-linkedin-in"></i></a>
         </div>
     </div>
 </section>

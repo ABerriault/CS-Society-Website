@@ -10,8 +10,7 @@
             <h3 class="font-weight-bold">Computer Science</h3>
             <p class="font-weight-bold">What's happening now?</p>
             <p class="text-muted">{{ content }}</p>
-            <a class="font-weight-bold" href="{{ page.button }}">Learn more<i
-                    class="fas fa-angle-right ml-2"></i></a>
+            <a class="font-weight-bold" href="{{ page.button }}">Learn more<i class="fas fa-angle-right ml-2"></i></a>
         </div>
     </div>
 </section>
@@ -36,10 +35,14 @@
 
         {% for person in site.data.team %}
 
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4"><a class="team-link" href="{{ person.link }}" target="_blank">
-                <div class="p-4">
-                    <div class="avatar w-100 white d-flex justify-content-center align-items-center">
-                        <img src="assets/images/team/{{ person.photo }}" class="img-fluid rounded-circle z-depth-1" />
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4"><a href="{{ person.link }}" target="_blank">
+                <div class="p-4 team-link">
+                    <div class="view overlay">
+                        <div class="avatar w-100 white d-flex justify-content-center align-items-center">
+                            <img src="assets/images/team/{{ person.photo }}"
+                                class="img-fluid rounded-circle z-depth-1" />
+                        </div>
+                        <div class="mask rounded-circle rgba-blue-strong"></div>
                     </div>
                     <div class="text-center mt-3">
                         <h6 class="font-weight-bold pt-2">{{ person.name }}</h6>
@@ -47,7 +50,6 @@
                             <small><i>{{ person.position }}</i></small>
                         </p>
                     </div>
-                </div>
             </a></div>
         {% endfor %}
     </div>
