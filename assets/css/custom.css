@@ -3,6 +3,16 @@ section {
     margin-bottom: 3rem !important;
 }
 
+.team-link div{
+    color:black;
+}
+
+.team-link div:hover{
+    color: #007bff;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
 .navbar .navbar-brand img {
     height: 20px;
 }

@@ -4,4 +4,7 @@
 
 layout: events
 title: McMaster CS Society | Events
+button: https://www.facebook.com/events/966924060337808/
 ---
+
+Fiix will be giving a presentation to answer questions that CS students have about the hiring process in general, as well as technical interviews! Then, we will be running a 1.5 hour coding challenge with prizes for the top teams!

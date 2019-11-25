@@ -4,11 +4,10 @@
 
 layout: home
 title: McMaster CS Society
-button: events
+button: events.html
 ---
 
 Coming up this week is the Fiix pair programming challenge. Sign up soon to
-reserve your spot. Thursday in Hatch! <br>Not your style, we have so many other things planned
+reserve your spot. Thursday in Hatch! <br>Not your style, that's ok! We have so many other things planned
 for you.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo iure ex soluta ipsa dolor modi itaque voluptatem perspiciatis delectus ut natus tempore sapiente cumque, eligendi et, adipisci id cum sunt eos autem voluptates molestias numquam? Autem, molestiae iste quae soluta impedit architecto qui nostrum ullam a, perferendis cum laborum!
