@@ -1,0 +1,31 @@
+- name: Sam Cymbaluk
+  position: President
+  photo: sam.jpg
+
+- name: Jessy de Leeuw
+  position: Vice President
+  photo: jessy.jpg
+
+- name: Tanner Ryan
+  position: Director of Administration
+  photo: placeholder.jpg
+
+- name: Andrew Berriault
+  position: Director of Marketing
+  photo: andrew.jpg
+
+- name: Jeff Gibson
+  position: Director of Academics
+  photo: jeff.jpg
+
+- name: Lonnie Kim
+  position: Director of Student Life
+  photo: lonnie.jpg
+
+- name: Youssef Mikhail
+  position: MES Representative
+  photo: youssef.jpg
+
+- name: Vicky Robinson
+  position: MES First Year Representative
+  photo: vicky.jpg
