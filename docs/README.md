@@ -9,3 +9,10 @@ The McMaster Computer Science Society (CSS) is an organization of undergraduate 
 ## Contact
 
 For more information on the McMaster Computer Science Society please contact the CS Society President [Sam Cymbaluk](mailto:css@mcmaster.ca).
+
+## Development Notes
+### Build
+bundle exec jekyll build -d /docs
+
+### Serve
+bundle exec jekyll serve -d /docs --incremental
