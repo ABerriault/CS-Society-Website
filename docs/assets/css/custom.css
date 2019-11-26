@@ -1,0 +1,60 @@
+section {
+  margin-top: 1rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.team-link div {
+  color: black;
+}
+
+.team-link div:hover {
+  color: #007bff;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.overlay .mask:hover {
+  opacity: 0.5;
+}
+
+.navbar .navbar-brand img {
+  height: 20px;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0;
+}
+
+.navbar .nav-link {
+  color: #444343 !important;
+}
+
+.navbar .button-collapse {
+  padding-top: 1px;
+}
+
+.card-intro .card-body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0 !important;
+}
+
+.card-intro .card-body h1 {
+  margin-bottom: 0;
+}
+
+.card-intro {
+  margin-top: 64px;
+}
+
+@media (max-width: 450px) {
+  .card-intro {
+    margin-top: 56px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .card-intro {
+    padding-left: 0 !important;
+  }
+}
