@@ -12,7 +12,7 @@ For more information on the McMaster Computer Science Society please contact the
 
 ## Development Notes
 ### Build
-bundle exec jekyll build -d /docs
+bundle exec jekyll build -d docs
 
 ### Serve
-bundle exec jekyll serve -d /docs --incremental
+bundle exec jekyll serve -d docs --incremental
