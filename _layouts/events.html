@@ -9,8 +9,10 @@
         <div class="col-lg-6 mb-4 mb-lg-0">
             <h3 class="font-weight-bold">CS Events</h3>
             <p class="font-weight-bold">What's happening now?</p>
+            <h5>{{ page.event_name }}</h5>
+            <p class="text-black-50">{{ page.event_date }}</p>
             <p class="text-muted">{{ content }}</p>
-            <a class="font-weight-bold" href="{{ page.button }}">Learn more<i
+            <a class="font-weight-bold" href="{{ page.button }}">{{ page.btn_text }}<i
                     class="fas fa-angle-right ml-2"></i></a>
         </div>
     </div>
