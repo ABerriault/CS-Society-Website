@@ -1,6 +1,4 @@
 {% include top.html %}
-
-{% assign cur_day = site.time | date: "%A" %}
 <!-- Quick Updates -->
 <section class="px-md-5 mx-md-5 dark-grey-text text-center text-lg-left">
     <div class="row">
@@ -25,13 +23,8 @@
             
                 <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                   <div class="card h-100">
-                    {% if cur_day == date.day %}
-                    <div class="card-header bg-primary text-white">
-                        {{ date.day }}  (today)
-                    {% else %}
-                    <div class="card-header">
+                    <div id="{{ date.day }}" class="card-header">
                         {{ date.day }}
-                    {% endif %}
                     </div>
                     <div class="card-body mt-3 mb-5 pt-0 pb-0">
                         {% for room in date.rooms %}
@@ -46,5 +39,5 @@
             {% endfor %}
         </div>
     </section>
-
 {% include bottom.html %}
+<script src="/assets/js/highlight-today.js"></script>
