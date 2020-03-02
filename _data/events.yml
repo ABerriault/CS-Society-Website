@@ -1,3 +1,18 @@
+- name: Town Hall
+  photo: placeholder.jpg
+  description: Student questions will be answered during the Town Hall. They can be anything from academic concerns to concerns about things like having access to a CAS student space.  
+  link: https://www.facebook.com/events/2537240246599139/
+
+- name: CAS Meets the Profs
+  photo: placeholder.jpg
+  description: Come out to meet with, eat with, and drink with the CAS profs!
+  link: https://www.facebook.com/events/172956900621397/
+
+- name: Networking Night with Fiix
+  photo: placeholder.jpg
+  description: Fiix will be giving a presentation to answer questions that CS students have about the hiring process in general, as well as technical interviews! Then, we will be running a 1.5 hour coding challenge with prizes for the top teams!
+  link: https://www.facebook.com/events/966924060337808/
+
 - name: McMaster CS Games Night
   photo: placeholder.jpg
   description: Chill games night, video games and board games will be there along with free food! Come for some free pizza and good time with your compsci friends.
