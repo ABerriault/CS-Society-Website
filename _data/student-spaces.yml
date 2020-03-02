@@ -1,0 +1,49 @@
+Days:
+  Monday:
+    ITB-236:
+      - open - 9:30am
+      - 5:30pm - close
+    ITB-237:
+      - open - 1:30pm
+      - 5:30pm - close
+  Tuesday:
+    ITB-236:
+      - open - 2:30pm
+      - 5:30pm - close
+    ITB-237:
+      - open - 12:30pm
+      - 1:30pm - 4:30pm
+      - 7:30pm - close
+  Wendesday:
+    ITB-236:
+      - open - 9:30am
+      - 12:30pm - 2:30pm
+      - 5:30pm - close
+    ITB-237:
+      - 11:30am - 12:30pm
+      - 1:30pm - 2:30pm
+      - 5:30pm - close
+  Thursday:
+    ITB-236:
+      - 11:30am; - 12:30pm
+      - 5:30pm - close
+    ITB-237:
+      - open - 9:30am
+      - 12:30pm - 1:30pm
+      - 5:30pm - close
+  Friday:
+    ITB-236:
+      - 11:30am - close
+    ITB-237:
+      - open - 9:30am
+      - 12:30pm - close
+  Saturday:
+    ITB-236:
+      - open - close
+    ITB-237:
+      - open - close
+  Sunday:
+    ITB-236:
+      - open - close
+    ITB-237:
+      - open - close
