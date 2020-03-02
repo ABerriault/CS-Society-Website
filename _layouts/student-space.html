@@ -1,0 +1,44 @@
+{% include top.html %}
+
+<!-- What's happening / Quick Updates -->
+<section class="px-md-5 mx-md-5 dark-grey-text text-center text-lg-left">
+    <div class="row">
+        <div class="col-lg-6 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
+            <img src="assets/images/cssLogo.png" class="img-fluid" style="width:40%;" alt="">
+        </div>
+        <div class="col-lg-6 mb-4 mb-lg-0">
+            <h3 class="font-weight-bold">Student Spaces on Campus</h3>
+            <p class="font-weight-bold">Where can CS students hangout and study?</p>
+            <p class="text-muted">{{ content }}</p>
+        </div>
+    </div>
+</section>
+
+<!-- Past Events -->
+<section class="p-md-3 mx-md-5 text-center text-lg-left">
+        <h2 class="text-center mx-auto font-weight-bold mb-4 pb-2">Space Availability</h2>
+        <p class="text-center">open = building open time | close = building close time</p>
+        <div class="row">
+            {% for date in site.data.student-spaces %}
+
+            
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                  <div class="card h-100">
+                    <div class="card-header">
+                        {{ date.day }}
+                    </div>
+                    <div class="card-body mt-3 mb-5 pt-0 pb-0">
+                        {% for room in date.rooms %}
+                        <p class="mt-3 mb-1 font-weight-bold">{{ room.name }}</p>
+                            {% for hours in room.available %}
+                            <span class="text-center d-block">{{ hours }}</span>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                  </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+{% include bottom.html %}
