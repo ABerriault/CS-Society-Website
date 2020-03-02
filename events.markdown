@@ -4,7 +4,12 @@
 
 layout: events
 title: McMaster CS Society | Events
-button: https://www.facebook.com/events/966924060337808/
+button: https://mechatronicsmerch.bigcartel.com/product/bowling-night
+btn_text: Get Ticket(s)
+event_name: TRON x CS Bowling Bash
+event_date: Thursday March 5th, 2020
 ---
 
-Fiix will be giving a presentation to answer questions that CS students have about the hiring process in general, as well as technical interviews! Then, we will be running a 1.5 hour coding challenge with prizes for the top teams!
+Come out to bowl and eat pizza and take a break from midterms!
+
+Tickets are $5, make sure to buy them and come out (and they include the food!)
