@@ -56,20 +56,11 @@
         - open - 9:30am
         - 12:30pm - close
 
-- day: Saturday
+- day: Weekends
   rooms:
     - name: ITB 236
       available:
         - open - close
-    - name: ITB 237
-      available:
-        - open - close
-
-- day: Sunday
-  rooms:
-    - name: ITB 236
-      available:
-      - open - close
     - name: ITB 237
       available:
         - open - close
