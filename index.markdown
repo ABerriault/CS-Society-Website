@@ -4,7 +4,7 @@
 
 layout: home
 title: McMaster CS Society
-button: events.html
+button: events
 ---
 
 Coming up this week is the Fiix pair programming challenge. Sign up soon to
