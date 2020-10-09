@@ -2,65 +2,52 @@
   rooms:
     - name: ITB 236
       available:
-        - open - 9:30am
-        - 5:30pm - close
+        - Closed for COVID-19
     - name: ITB 237
       available:
-        - open - 1:30pm
-        - 5:30pm - close
+        - Closed for COVID-19
 
 - day: Tuesday
   rooms:
     - name: ITB 236
       available:
-        - open - 2:30pm
-        - 5:30pm - close
+        - Closed for COVID-19
     - name: ITB 237
       available:
-        - open - 12:30pm
-        - 1:30pm - 4:30pm
-        - 7:30pm - close
+        - Closed for COVID-19
 
 - day: Wednesday
   rooms:
     - name: ITB 236
       available:
-        - open - 9:30am
-        - 12:30pm - 2:30pm
-        - 5:30pm - close
+        - Closed for COVID-19
     - name: ITB 237
       available:
-        - 11:30am - 12:30pm
-        - 1:30pm - 2:30pm
-        - 5:30pm - close
+        - Closed for COVID-19
 
 - day: Thursday
   rooms:
     - name: ITB 236
       available:
-        - 11:30am - 12:30pm
-        - 5:30pm - close
+        - Closed for COVID-19
     - name: ITB 237
       available:
-        - open - 9:30am
-        - 12:30pm - 1:30pm
-        - 5:30pm - close
+        - Closed for COVID-19
 
 - day: Friday
   rooms:
     - name: ITB 236
       available:
-        - 11:30am - close
+        - Closed for COVID-19
     - name: ITB 237
       available:
-        - open - 9:30am
-        - 12:30pm - close
+        - Closed for COVID-19
 
 - day: Weekends
   rooms:
     - name: ITB 236
       available:
-        - open - close
+        - Closed for COVID-19
     - name: ITB 237
       available:
-        - open - close
+        - Closed for COVID-19
