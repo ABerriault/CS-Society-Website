@@ -1,74 +1,79 @@
-- name: Sam Cymbaluk
-  position: President
-  photo: sam.jpg
-  link: #
-
-- name: Jessy de Leeuw
-  position: Vice President
-  photo: jessy.jpg
-  link: #
-
-- name: Tanner Ryan
-  position: Director of Administration
-  photo: placeholder.jpg
-  link: #
-
-- name: Andrew Berriault
-  position: Director of Marketing
-  photo: andrew.jpg
-  link: http://berriault.com
-
-- name: Jeff Gibson
-  position: Director of Academics
-  photo: jeff.jpg
-  link: #
-
-- name: Lonnie Kim
-  position: Director of Student Life
-  photo: lonnie.jpg
-  link: #
-
 - name: Youssef Mikhail
-  position: MES Representative
-  photo: youssef.jpg
-  link: #
-
-- name: Vicky Robinson
-  position: MES First Year Representative
-  photo: vicky.jpg
-  link: #
-
-- name: Ali Shahpurwala
-  position: Level 1 Representative
-  photo: placeholder.jpg
-  link: #
-
-- name: JiHwan Kim
-  position: Level 1 Representative
-  photo: placeholder.jpg
+  position: President
+  photo: youssef_3.png
   link: #
 
 - name: Nida Nasir
+  position: Vice President
+  photo: nida.jpg
+  link: #
+
+- name: Ali Shahpurwala
+  position: Director of Administration
+  photo: ali.jpg
+  link: #
+
+- name: Khizar Siddiqui
+  position: Director of Marketing
+  photo: khizar.jpg
+  link: http://berriault.com
+
+- name: Benjamin Kostiuk
+  position: Director of Academics
+  photo: ben.png
+  link: #
+
+- name: Jennifer Cheng
+  position: Director of Student Affairs
+  photo: jennifer.jpg
+  link: #
+
+- name: Nikhail Singh
+  position: Director of Finance
+  photo: nikhail.png
+  link: #
+
+- name: Tasneem Majid
+  position: MES First Year Representative
+  photo: placeholder.jpg
+  link: #
+
+- name: Vicky Robinson
+  position: MES Representative
+  photo: vicky.jpg
+  link: #
+
+- name: Open Position
   position: Level 1 Representative
   photo: placeholder.jpg
   link: #
 
-- name: Ricky Zhuang
+- name: Open Position
+  position: Level 1 Representative
+  photo: placeholder.jpg
+  link: #
+
+- name: Open Position
+  position: Level 1 Representative
+  photo: placeholder.jpg
+  link: #
+
+- name: Open Position
   position: Level 2 Representative
   photo: placeholder.jpg
   link: #
 
-- name: Shawn Esseltine
-  position: Level 3 Co-Representative
-  photo: shawn.jpg
-  link: #
-
-- name: Daniel Rubinstein
+- name: Open Position
   position: Level 3 Co-Representative
   photo: placeholder.jpg
   link: #
 
-- name: Ray Winardi
+- name: Open Position
+  position: Level 3 Co-Representative
+  photo: placeholder.jpg
+  link: #
+
+- name: Open Position
   position: Level 4 Representative
   photo: placeholder.jpg
   link: #
